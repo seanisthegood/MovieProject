@@ -24,10 +24,12 @@ Subdividing films into budget tiers revealed the greatest percentage of profitab
 
 ### Visual 1
 ![graph1](./images/Budget_Category.png)
+
 The return on investment varies month-to-month, it also varies when divided into budget tiers. 
 
 ### Visual 2
-![graph4](./images/Small_Budget _Genre.png)
+![graph4](./images/Small_Budget_Genre.png)
+
 ![graph5](./images/Big_Budget_Genre.png)
 
 Film genre also offers another decision point for a potential studio. Animation is the top genre amongst big budget films. Horror offers the highest ROI amongst smaller budget films. Drama is a category to be avoided.
