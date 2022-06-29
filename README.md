@@ -1,4 +1,4 @@
-# Microsot Movie Project Analysis
+# Microsoft Movie Project Analysis
 
 **Authors**: Sean Hart
 
