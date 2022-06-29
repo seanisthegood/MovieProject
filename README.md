@@ -8,32 +8,37 @@ This project is to create reccomendations for a possible Mircrosoft movie studio
 
 ## Business Problem
 
-A new movie studio will have to make determinations on budget, type-of-films, and a release schedule. 
+A new movie studio will have to make determinations on budget, type of films, and a release schedule for the films.
 
 ## Data
 
-"The Numbers" financial data  provided production budget and gross information for 5,782 film entries. This data was paired with data from Rotten Tomatoes provided genre information as well.
+"The Numbers" financial data  provided production budget and gross information for 5,782 film entries. This data was paired with data from Rotten Tomatoes provided genre information as well. I was able to merge this data to create a larger dataframe that gave details on genre, budget, and other relvent information for the analysis. 
 
 ## Methods
 
-This project uses descriptive analysis, a look at monthly trends and a look at categorical evaluations.
+This project uses descriptive analysis. I look at seasonal and monthy trends, grouped data into genres, created budget tiers, and used feature engineering to create a return-on-investment(ROI) metrics to be used in the anaylsis. I relied on Pandas to help me create a dataframes 
 
 ## Results
 
-Subdividing films into budget tiers revealed the greatest percentage of profitable films above $60 Million. This category had the highest correlation of production budget to ROI. 
+Subdividing films into budget tiers revealed the greatest percentage of profitable films above $60 Million - a highere profit percentage once films ticked above the $60 million budget threshold. This category had the highest correlation of production budget to ROI. 
 
-### Visual 1
+### Percentage of Profitability Per Budget Category.
 ![graph1](./images/Budget_Category.png)
-The return on investment varies month-to-month, it also varies when divided into budget tiers. 
 
-### Visual 2
-![graph4](./images/Small_Budget _Genre.png)
+I found it insightful to break the films into budget categories and take a look at how many films are profitable per budget category. As seen above, a greater percentage of films were profitable in the larger budget categories.  
+
+### Genres Compared - $50 Million Under and Over
+![graph4](./images/Small_Budget_Genre.png)
 ![graph5](./images/Big_Budget_Genre.png)
 
 Film genre also offers another decision point for a potential studio. Animation is the top genre amongst big budget films. Horror offers the highest ROI amongst smaller budget films. Drama is a category to be avoided.
 
-### Visual 3
+Comparing genres offers an important decision point - horror is a classic small budget investment offering a the highest ROI for the lower budget tier. On the end of the spectrum, animation shows the greatest return in the large budget tier. Drama lags as a genre, perhaps studios chase it for award accolaids. 
+
+### Median and Mean ROI Per Month
 ![graph1](./images/Overall_Monthly_ROI.png)
+
+A clear seasonal is present in the above charts. The summer months are an expected time of high median profit. Early parts of the year show less profit, but a higher ROI. The early part of the year is a time for smaller budget movies to offer a return.
 
 ## Conclusions
 
