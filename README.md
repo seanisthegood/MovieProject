@@ -55,6 +55,4 @@ A clear seasonal is present in the above charts. The summer months are an expect
 
 Please review our full analysis in [our Jupyter Notebook](./microsoft_movie_studio_analysis.ipynb) or our [presentation](./Sean_Hart_Microsoft_Movie_Presentation.pdf).
 
-For any additional questions, please contact **Sean Hart at seanmhart@gmail.com**
-
-## Repository Structure
+For any additional questions, please contact **Sean Hart at seanmhart@gmail.com
